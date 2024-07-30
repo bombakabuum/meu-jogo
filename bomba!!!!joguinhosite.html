@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Jogo - Página Oficial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        h1, h2 {
+            color: #222;
+        }
+        .game-description {
+            margin-bottom: 2rem;
+        }
+        .screenshots img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .contact-form {
+            margin-top: 2rem;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Jogo</h1>
+    </header>
+    <div class="container">
+        <section class="game-description">
+            <h2>Sobre o Jogo</h2>
+            <p>Bem-vindo ao Meu Jogo, uma emocionante aventura que leva você a um mundo de desafios e diversão! Explore novos territórios, enfrente inimigos e resolva enigmas enquanto você avança pela história envolvente do jogo.</p>
+        </section>
+        
+        <section class="screenshots">
+            <h2>Capturas de Tela</h2>
+            <img src="screenshot1.jpg" alt="Screenshot do Jogo 1">
+            <img src="screenshot2.jpg" alt="Screenshot do Jogo 2">
+            <img src="screenshot3.jpg" alt="Screenshot do Jogo 3">
+        </section>
+        
+        <section class="contact-form">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
